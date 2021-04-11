@@ -172,6 +172,7 @@ $(document).ready(function() {
       HTMLBuilder.generateMeanings(information.data);
 
       $("#information-result-content-wrapper").removeClass("disabled");
+      $('body,html').animate({ scrollTop: $('body').height() + 185 }, 1200);
     } catch (e) {
       if(e.response) {
         swal("Oops!", e.response.data.title || "Internal Server Error", "warning");
