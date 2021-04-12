@@ -131,6 +131,10 @@ body {
   margin-bottom: 5px;
 }
 
+#information-result-content-wrapper .single-result-box-wrapper.disabled {
+  display: none;
+}
+
 #information-result-content-wrapper
   .single-result-box-wrapper
   .single-result-title {
